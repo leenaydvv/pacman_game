@@ -1,0 +1,54 @@
+.glyph {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.wall {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.pacman {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ghost {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Right {
+  transform: rotate(0deg);
+}
+
+.pacman.Down {
+  transform: rotate(90deg);
+}
+
+.Left {
+  transform: scaleX(-1);
+}
+
+.pacman.Up {
+  transform: rotate(-90deg);
+}
+
+.dot {
+  margin: 42%;
+  max-width: 15%;
+  max-height: 15%;
+}
+
+.bigdot {
+  margin: 25%;
+  max-width: 50%;
+  max-height: 50%;
+}

@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  font-family: 'Sniglet', cursive;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 10vmax;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: #f2f000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.volume-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+footer {
+  flex: none;
+  background-color: #282c34;
+}
